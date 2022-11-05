@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="h-[100%] w-[100%]">
-      <div className="flex flex-col items-center px-4 mx-auto my-4">
+      <div className="flex flex-col items-center px-1 mx-auto my-6">
         <div className="flex flex-col items-center">
           <img src={Pic} className="w-32 h-32 rounded-full object-fit" />
           <h2 id="twitter" className="mt-4 text-2xl font-bold">

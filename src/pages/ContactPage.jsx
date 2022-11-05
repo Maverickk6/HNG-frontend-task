@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 function ContactPage() {
   return (
     <div className="h-[100%] w-[100%] flex flex-col items-center">
-      <div className="flex flex-col px-4 h-[600px] w-[50%] mx-auto mb-1 mt-16 rounded">
+      <div className="flex flex-col px-2 h-[600px] w-[90%] md:w-[50%] mx-auto mb-12 mt-16 rounded">
         <h2 className="font-Inter text-3xl font-bold mb-8 text-[#101828]">
           Contact Me
         </h2>
@@ -11,8 +11,8 @@ function ContactPage() {
           Hi there, contact me to ask me about anything you have in mind
         </p>
         <form className="flex flex-col ">
-          <div className="flex flex-row items-center justify-between mb-6">
-            <div className="flex flex-col w-[45%]">
+          <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 md:mb-6">
+            <div className="flex flex-col mb-2 md:w-[45%]">
               <label for="Firstname" className="text-[#344054] text-sm mb-1">
                 First name
               </label>
@@ -23,7 +23,7 @@ function ContactPage() {
                 className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded"
               />
             </div>
-            <div className="flex flex-col w-[45%]">
+            <div className="flex flex-col mb-2 md:w-[45%]">
               <label for="lastName" className="text-[#344054] text-sm mb-1">
                 Last name
               </label>
@@ -57,8 +57,8 @@ function ContactPage() {
             />
           </div>
 
-          <div className="mt-8 mb-2">
-            <input type="checkbox" className="mr-[10px]" />
+          <div className="mt-8 mb-2 flex flex-row items-start">
+            <input type="checkbox" className="mr-[14px] mt-[7px]" />
             <label className="text-gray-600">
               You agree to providing your data to Edidiong who may contact you
             </label>
