@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 function ContactPage() {
   return (
     <div className="h-[100%] w-[100%] flex flex-col items-center">
-      <div className="flex flex-col px-2 h-[600px] w-[90%] sm:w-[50%] mx-auto mb-12 mt-16 rounded">
+      <div className="flex flex-col px-2 h-[600px] w-[90%] md:w-[60%] mx-auto mb-16 mt-16 rounded">
         <h2 className="font-Inter text-3xl font-bold mb-8 text-[#101828]">
           Contact Me
         </h2>
@@ -20,7 +20,7 @@ function ContactPage() {
                 required
                 id="first_name"
                 placeholder="Enter your first name"
-                className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded"
+                className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
               />
             </div>
             <div className="flex flex-col mb-2 sm:w-[45%]">
@@ -31,7 +31,7 @@ function ContactPage() {
                 required
                 id="last_name"
                 placeholder="Enter your last name"
-                className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded"
+                className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
               />
             </div>
           </div>
@@ -43,23 +43,29 @@ function ContactPage() {
               required
               id="email"
               placeholder="yourname@email.com"
-              className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded"
+              className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
             />
           </div>
           <div className="flex flex-col">
-            <label className="text-[#344054] text-sm mb-1">Message</label>
-            <input
+            <label for="message" className="text-[#344054] text-sm mb-1">
+              Message
+            </label>
+            <textarea
+              rows="5"
               required
-              type="text"
               id="message"
               placeholder="Send me a message and I'll reply as soon as possible"
-              className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded"
+              className="text-gray-500 block p-2.5 placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
             />
           </div>
 
           <div className="mt-8 mb-2 flex flex-row items-start">
-            <input type="checkbox" className="mr-[14px] mt-[7px]" />
-            <label className="text-gray-600">
+            <input
+              type="checkbox"
+              id="checkbox"
+              className="text- mr-[14px] mt-[5px] bg-gray-200 cursor-pointer border-[#D0D5DD] focus:ring-[#84CAFF] rounded"
+            />
+            <label for="checkbox" className="text-gray-600">
               You agree to providing your data to Edidiong who may contact you
             </label>
           </div>
@@ -67,7 +73,7 @@ function ContactPage() {
             id="btn_submit"
             value="Send Message"
             type="submit"
-            className="text-md text-white font-light my-4 bg-[#1570EF] w-full text-center p-2 rounded-md"
+            className="text-md text-white font-light my-4 bg-[#1570EF] w-full text-center p-2 rounded-md cursor-pointer"
           />
         </form>
       </div>
