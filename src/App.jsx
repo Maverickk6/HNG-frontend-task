@@ -3,6 +3,7 @@ import Pic from "./assets/mavv.jpeg";
 import Git from "./assets/git.svg";
 import Slack from "./assets/slack.svg";
 import Footer from "./components/Footer";
+import { Link } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -56,6 +57,14 @@ function App() {
           >
             Design Books
           </a>
+
+          <a
+            className="my-4 bg-[#c8cdd7] w-full text-center p-6 rounded-md text-xl"
+            id="contact"
+          >
+            <Link to={`/contact`}>Contact Me</Link>
+          </a>
+
           <div className="flex flex-row mt-6">
             <img src={Slack} className="w-12 h-12 mr-2" />
             <img src={Git} className="w-12 h-12 ml-2" />
