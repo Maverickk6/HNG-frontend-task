@@ -3,7 +3,7 @@ import I4G from "../assets/I4G.png";
 
 function Footer() {
   return (
-    <div className="py-2 h-[100px] md:h-[200px] md:py-4 px-4 md:px-8 mb-6 md:mb-6 md:mt-16  mt-6 w-[90vW] flex md:flex-row flex-col justify-between">
+    <div className="py-2 h-[100px] md:h-[200px] md:py-4 px-4 md:px-8 mb-12 md:mb-6 md:mt-16  mt-6 w-[90vW] flex md:flex-row flex-col justify-between">
       <h1 className="font-bold text-[25px]">
         Zuri <span className="text-[40px] text-red-500">.</span> Internship
       </h1>
