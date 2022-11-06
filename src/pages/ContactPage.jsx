@@ -13,7 +13,7 @@ function ContactPage() {
         <form className="flex flex-col ">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 sm:mb-6">
             <div className="flex flex-col mb-6 sm:w-[45%]">
-              <label for="Firstname" className="text-[#344054] text-sm mb-1">
+              <label for="first_name" className="text-[#344054] text-sm mb-1">
                 First name
               </label>
               <input
@@ -24,7 +24,7 @@ function ContactPage() {
               />
             </div>
             <div className="flex flex-col mb-2 sm:w-[45%]">
-              <label for="lastName" className="text-[#344054] text-sm mb-1">
+              <label for="last_name" className="text-[#344054] text-sm mb-1">
                 Last name
               </label>
               <input
@@ -61,6 +61,7 @@ function ContactPage() {
 
           <div className="mt-8 mb-2 flex flex-row items-start">
             <input
+              id="checkbox"
               type="checkbox"
               className="text- mr-[14px] mt-[5px] bg-gray-200 cursor-pointer border-[#D0D5DD] focus:ring-[#84CAFF] rounded"
             />
