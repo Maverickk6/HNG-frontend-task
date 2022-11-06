@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="h-[100%] w-[100%]">
-      <div className="flex flex-col items-center px-1 mx-auto my-6">
+      <div className="flex flex-col items-center px-1 mx-auto my-6 md:my-1">
         <div className="flex flex-col items-center w-full">
           <img src={Pic} className="w-32 h-32 rounded-full object-fit" />
           <h2 id="twitter" className="mt-4 text-2xl font-bold">
@@ -18,7 +18,7 @@ function App() {
           </h2>
           {/* <p id="slack">Maverick</p> */}
         </div>
-        <div className="mt-4 w-[85vW] sm:w-[80vW] md:w-[60vW] flex flex-col items-center">
+        <div className="mt-4 w-[90vW] sm:w-[80vW] md:w-[60vW] flex flex-col items-center">
           <a className="my-4 bg-[#c8cdd7] w-full text-center p-6 rounded-md text-xl">
             Twitter Link
           </a>
@@ -66,8 +66,8 @@ function App() {
           </a>
 
           <div className="flex flex-row mt-6">
-            <img src={Slack} className="w-12 h-12 mr-2" />
-            <img src={Git} className="w-12 h-12 ml-2" />
+            <img src={Slack} className="w-6 h-6 mr-2" />
+            <img src={Git} className="w-6 h-6 ml-2" />
           </div>
         </div>
         <Footer />

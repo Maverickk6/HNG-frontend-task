@@ -2,8 +2,8 @@ import Footer from "../components/Footer";
 
 function ContactPage() {
   return (
-    <div className="h-[full] w-[100%] flex flex-col items-center pb-8">
-      <div className="flex flex-col px-2 h-[65%] w-[90%] md:w-[60%] mx-auto mb-16 mt-16 rounded">
+    <div className="h-[full] w-[100%] flex flex-col items-center pb-6 md:pb-1">
+      <div className="flex flex-col px-2 h-[65%] w-[90%] md:w-[60%] mx-auto mb-4 sm:mb-8 mt-16 rounded">
         <h2 className="font-Inter text-3xl font-bold mb-8 text-[#101828]">
           Contact Me
         </h2>

@@ -3,8 +3,8 @@ import I4G from "../assets/I4G.png";
 
 function Footer() {
   return (
-    <div className="h-[90px] md:h-[200px] md:py-4 px-2 md:px-6 py-1 mb-12 md:mb-6 md:mt-6 mt-6 w-[90vW]">
-      <div className="w-full h-[1px] bg-gray-300 mb-2 md:mb-6"></div>
+    <div className="h-[90px] md:h-[200px] md:py-4 px-2 md:px-6 py-1 mb-12 md:mb-2 md:mt-20 mt-16 w-[90vW]">
+      <div className="w-full h-[0.5px] bg-gray-300 mb-2 md:mb-6"></div>
       <div className="  flex md:flex-row flex-col justify-between">
         <h1 className="font-bold text-[25px]">
           Zuri <span className="text-[40px] text-red-500">.</span> Internship
