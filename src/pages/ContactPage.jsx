@@ -13,7 +13,7 @@ function ContactPage() {
         <form className="flex flex-col ">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 sm:mb-6">
             <div className="flex flex-col mb-6 sm:mb-2 sm:w-[45%]">
-              <label for="first_name" className="text-[#344054] text-sm mb-1">
+              <label htmlFor="first_name" className="text-[#344054] text-sm mb-1">
                 First name
               </label>
               <input
@@ -24,7 +24,7 @@ function ContactPage() {
               />
             </div>
             <div className="flex flex-col mb-4 sm:mb-2 sm:w-[45%]">
-              <label for="last_name" className="text-[#344054] text-sm mb-1">
+              <label htmlFor="last_name" className="text-[#344054] text-sm mb-1">
                 Last name
               </label>
               <input
@@ -36,7 +36,7 @@ function ContactPage() {
             </div>
           </div>
           <div className="flex flex-col mb-6">
-            <label for="email" className="text-[#344054] text-sm mb-1">
+            <label htmlFor="email" className="text-[#344054] text-sm mb-1">
               Email
             </label>
             <input
@@ -47,7 +47,7 @@ function ContactPage() {
             />
           </div>
           <div className="flex flex-col">
-            <label for="message" className="text-[#344054] text-sm mb-1">
+            <label htmlFor="message" className="text-[#344054] text-sm mb-1">
               Message
             </label>
             <textarea
@@ -66,7 +66,7 @@ function ContactPage() {
               type="checkbox"
               className="text- mr-[14px] mt-[5px] bg-gray-200 cursor-pointer border-[#D0D5DD] focus:ring-[#84CAFF] rounded"
             />
-            <label for="checkbox" className="text-gray-600">
+            <label htmlFor="checkbox" className="text-gray-600">
               You agree to providing your data to Edidiong who may contact you
             </label>
           </div>
