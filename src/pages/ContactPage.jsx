@@ -54,7 +54,7 @@ function ContactPage() {
               rows="5"
               required
               id="message"
-              placeholder="Send me a message and I'll reply as soon as possible"
+              placeholder="Send me a message and I'll reply you as soon as possible..."
               className="text-gray-500 block placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded-lg hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
             />
           </div>
