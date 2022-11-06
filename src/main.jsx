@@ -4,11 +4,13 @@ import App from "./App";
 import "./index.css";
 import { createBrowserRouter, HashRouter, RouterProvider, Route } from "react-router-dom";
 import ContactPage from "./pages/ContactPage";
+import ErrorPage from "./ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/contact",

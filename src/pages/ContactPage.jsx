@@ -67,7 +67,7 @@ function ContactPage() {
               className="text- mr-[14px] mt-[5px] bg-gray-200 cursor-pointer border-[#D0D5DD] focus:ring-[#84CAFF] rounded"
             />
             <label htmlFor="checkbox" className="text-gray-600">
-              You agree to providing your data to Edidiong who may contact you.
+              You agree to providing your data to Maverick who may contact you.
             </label>
           </div>
           <input
