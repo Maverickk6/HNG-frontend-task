@@ -12,7 +12,7 @@ function ContactPage() {
         </p>
         <form className="flex flex-col ">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 sm:mb-6">
-            <div className="flex flex-col mb-6 sm:w-[45%]">
+            <div className="flex flex-col mb-6 sm:mb-2 sm:w-[45%]">
               <label for="first_name" className="text-[#344054] text-sm mb-1">
                 First name
               </label>
@@ -23,7 +23,7 @@ function ContactPage() {
                 className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded-lg hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
               />
             </div>
-            <div className="flex flex-col mb-2 sm:w-[45%]">
+            <div className="flex flex-col mb-4 sm:mb-2 sm:w-[45%]">
               <label for="last_name" className="text-[#344054] text-sm mb-1">
                 Last name
               </label>
