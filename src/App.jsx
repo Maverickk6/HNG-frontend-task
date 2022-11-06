@@ -11,19 +11,19 @@ function App() {
   return (
     <div className="h-[100%] w-[100%]">
       <div className="flex flex-col items-center px-1 mx-auto my-6">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center w-full">
           <img src={Pic} className="w-32 h-32 rounded-full object-fit" />
           <h2 id="twitter" className="mt-4 text-2xl font-bold">
             @eddymav
           </h2>
           {/* <p id="slack">Maverick</p> */}
         </div>
-        <div className="mt-4 w-[85vW] sm:w-[70vW] flex flex-col items-center">
+        <div className="mt-4 w-[85vW] sm:w-[80vW] md:w-[60vW] flex flex-col items-center">
           <a className="my-4 bg-[#c8cdd7] w-full text-center p-6 rounded-md text-xl">
             Twitter Link
           </a>
           <a
-            className="text-xl my-4 bg-[#c8cdd7] w-full text-center p-6 rounded-md"
+            className="text-xl my-4 bg-[#c8cdd7] w-full text-center p-6 md:p-x2 rounded-md"
             href="https://training.zuri.team/"
             id="btn__zuri"
           >
