@@ -12,7 +12,7 @@ function ContactPage() {
         </p>
         <form className="flex flex-col ">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 sm:mb-6">
-            <div className="flex flex-col mb-2 sm:w-[45%]">
+            <div className="flex flex-col mb-6 sm:w-[45%]">
               <label for="Firstname" className="text-[#344054] text-sm mb-1">
                 First name
               </label>
@@ -20,7 +20,7 @@ function ContactPage() {
                 required
                 id="first_name"
                 placeholder="Enter your first name"
-                className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
+                className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded-lg hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
               />
             </div>
             <div className="flex flex-col mb-2 sm:w-[45%]">
@@ -31,7 +31,7 @@ function ContactPage() {
                 required
                 id="last_name"
                 placeholder="Enter your last name"
-                className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
+                className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded-lg hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
               />
             </div>
           </div>
@@ -43,7 +43,7 @@ function ContactPage() {
               required
               id="email"
               placeholder="yourname@email.com"
-              className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
+              className="placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded-lg hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
             />
           </div>
           <div className="flex flex-col">
@@ -55,14 +55,13 @@ function ContactPage() {
               required
               id="message"
               placeholder="Send me a message and I'll reply as soon as possible"
-              className="text-gray-500 block placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
+              className="text-gray-500 block placeholder:text-[#667085] placeholder:text-[15px] border border-[#D0D5DD] py-2 px-4 rounded-lg hover:border-[#1570EF] focus:outline-[#84CAFF] focus:shadow-outline"
             />
           </div>
 
           <div className="mt-8 mb-2 flex flex-row items-start">
             <input
               type="checkbox"
-              id="checkbox"
               className="text- mr-[14px] mt-[5px] bg-gray-200 cursor-pointer border-[#D0D5DD] focus:ring-[#84CAFF] rounded"
             />
             <label for="checkbox" className="text-gray-600">
