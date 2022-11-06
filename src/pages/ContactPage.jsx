@@ -8,7 +8,7 @@ function ContactPage() {
           Contact Me
         </h2>
         <p className="font-Inter font-light text-lg mb-16 text-[#475467]">
-          Hi there, contact me to ask me about anything you have in mind
+          Hi there, contact me to ask me about anything you have in mind.
         </p>
         <form className="flex flex-col ">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 sm:mb-6">
@@ -67,7 +67,7 @@ function ContactPage() {
               className="text- mr-[14px] mt-[5px] bg-gray-200 cursor-pointer border-[#D0D5DD] focus:ring-[#84CAFF] rounded"
             />
             <label htmlFor="checkbox" className="text-gray-600">
-              You agree to providing your data to Edidiong who may contact you
+              You agree to providing your data to Edidiong who may contact you.
             </label>
           </div>
           <input
