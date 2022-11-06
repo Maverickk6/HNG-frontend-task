@@ -61,6 +61,7 @@ function ContactPage() {
 
           <div className="mt-8 mb-2 flex flex-row items-start">
             <input
+              required
               id="checkbox"
               type="checkbox"
               className="text- mr-[14px] mt-[5px] bg-gray-200 cursor-pointer border-[#D0D5DD] focus:ring-[#84CAFF] rounded"
