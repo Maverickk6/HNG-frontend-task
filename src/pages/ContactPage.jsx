@@ -73,7 +73,7 @@ function ContactPage() {
             id="btn__submit"
             value="Send Message"
             type="submit"
-            className="text-md text-white font-light my-4 bg-[#1570EF] w-full text-center p-2 rounded-md cursor-pointer"
+            className="text-sm text-white font-normal my-4 bg-[#1570EF] w-full text-center p-2 rounded-md cursor-pointer"
           />
         </form>
       </div>
