@@ -2,8 +2,8 @@ import { useState } from "react";
 import Pic from "./assets/mavv.jpeg";
 import Git from "./assets/git.svg";
 import Slack from "./assets/slack.svg";
-import Share from './assets/shareIcon.png';
-import Dot from './assets/dotIcon.png'
+import Share from "./assets/shareIcon.png";
+import Dot from "./assets/dotIcon.png";
 import Footer from "./components/Footer";
 import { Link } from "react-router-dom";
 
@@ -14,10 +14,10 @@ function App() {
     <div className="h-[100%] w-[100%]">
       <div className="flex flex-col items-center px-1 mx-auto mt-12 mb-6 md:mt-16 md:mb-1 relative">
         <div className=" hidden md:block sm:block self-end border-dashed border-2 border-gray-300 p-4 rounded-full absolute right-[30px] sm:right-[120px] md:right-[250px]">
-          <img src={Share} className="h-4 w-4"/>
+          <img src={Share} className="h-4 w-4" />
         </div>
         <div className=" sm:hidden md:hidden self-end border-dotted border-2 border-gray-300 px-[16px] py-[20px] rounded-full absolute right-[30px] sm:right-[120px] md:right-[250px]">
-          <img src={Dot} className="h-[2px] w-[10px]"/>
+          <img src={Dot} className="h-[2px] w-[10px]" />
         </div>
         <div className="flex flex-col items-center w-full">
           <img src={Pic} className="w-32 h-32 rounded-full object-fit" />
@@ -66,12 +66,13 @@ function App() {
             Design Books
           </a>
 
-          <a
+          <Link
+            to={"/contact"}
             className="my-4 text-[#101828] bg-[#EAECF0] w-full text-center p-6 rounded-md text-xl"
             id="contact"
           >
-            <Link to={`/contact`}>Contact Me</Link>
-          </a>
+            Contact Me
+          </Link>
 
           <div className="flex flex-row mt-6">
             <img src={Slack} className="w-6 h-6 mr-2" />
