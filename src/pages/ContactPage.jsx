@@ -19,7 +19,7 @@ function ContactPage() {
     checkbox: Yup.string().required("Please select the checkbox"),
   });
 
-  const onSubmit = () => alert('Submitted');
+  const onSubmit = () => alert("Submitted");
 
   return (
     <div className="h-[full] w-[100%] flex flex-col items-center pb-6 md:pb-1">
@@ -109,10 +109,11 @@ function ContactPage() {
             </div>
             <button
               id="btn__submit"
-              
               type="submit"
               className="text-sm text-white font-normal my-4 bg-[#1570EF] w-full text-center p-2 rounded-md cursor-pointer"
-            >Send message</button>
+            >
+              Send message
+            </button>
           </Form>
         </Formik>
       </div>
