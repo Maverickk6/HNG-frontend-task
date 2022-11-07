@@ -107,12 +107,12 @@ function ContactPage() {
                 you.
               </label>
             </div>
-            <input
+            <button
               id="btn__submit"
-              value="Send Message"
+              
               type="submit"
               className="text-sm text-white font-normal my-4 bg-[#1570EF] w-full text-center p-2 rounded-md cursor-pointer"
-            />
+            >Send message</button>
           </Form>
         </Formik>
       </div>
